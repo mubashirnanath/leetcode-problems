@@ -1,6 +1,6 @@
 # LeetCode Solutions Repository 🧩
 
-This repository contains my solutions to various LeetCode problems. Each solution is written in Python and includes detailed explanations.
+This repository contains solutions to various LeetCode problems. Each solution is written in Python and includes detailed explanations.
 
 ---
 
