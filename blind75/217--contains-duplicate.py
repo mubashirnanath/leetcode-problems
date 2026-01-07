@@ -1,12 +1,20 @@
+# def containsDuplicate(nums):
+#     hash_set = set()
+
+#     for num in nums:
+#         if num in hash_set:
+#             return False
+#         else:
+#             hash_set.add(num)
+#     return True
+
+# nums = [1,2,3,1]
+# print(containsDuplicate(nums))
+
+
+# simple code
 def containsDuplicate(nums):
-    prev_map = dict()
+    return len(nums) == len(set(nums))
 
-    for i, num in enumerate(nums):
-        if num in prev_map:
-            return False
-        else:
-            prev_map[num] = i
-    return True
-
-nums = [1,2,3,4]
+nums = [1,2,3,1]
 print(containsDuplicate(nums))
