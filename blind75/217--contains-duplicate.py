@@ -1,15 +1,15 @@
-# def containsDuplicate(nums):
-#     hash_set = set()
+def containsDuplicate(nums):
+    hash_set = set()
 
-#     for num in nums:
-#         if num in hash_set:
-#             return False
-#         else:
-#             hash_set.add(num)
-#     return True
+    for num in nums:
+        if num in hash_set:
+            return False
+        else:
+            hash_set.add(num)
+    return True
 
-# nums = [1,2,3,1]
-# print(containsDuplicate(nums))
+nums = [1,2,3,1]
+print(containsDuplicate(nums))
 
 
 # simple code
